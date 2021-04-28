@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>ホームページ</title>
+ <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+ <meta name="description" content="ディスクリプションを入力">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     
+ <style type="text/css">
+     div.box1{
+         float:left;
+         margin-left:30px;
+     }
+     
+     div.box2{
+        width:60%;
+        float:right; 
+        margin-right:50px;
+     }
+     
+     div.box3{
+         float:left;
+         margin-left:30px;
+     }
+     
+     img.photo1{
+         width:200px;
+         height:200px;
+     }
+     
+     img.photo2{
+         width:200px;
+         height:200px;
+     }
+     p{
+         font-family: "M PLUS Rounded 1c";
+     }
+     
+     h1,h2,h3{
+         font-family: "M PLUS Rounded 1c";
+     }
+     
+ </style>
+     
+ </head>
+ <body>
+ <!----- header----->
+ <header>
+    <center><img src="font_rend.png"></center>
+     
+ </header>
+ <nav>
+     <hr color="black">
+     <br>
+     <br>
+     <br>
+ </nav>
+ <!----- /header ----->
+ 
+ <!----- main ----->
+ <article>
+<div class=box1>
+    <h1>カテゴリ</h1>
+    <ul>
+        <a href="12Pro.html"><li>iPhone12Pro</li></a>
+        <a href="12.html"><li>iPhone12</li></a>
+        <li>iPhone11Pro</li>
+        <li>iPhone11</li>
+    </ul>
+    
+    <!-- 折り畳み展開ポインタ -->
+    <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ もっと見る</a>
+    </div>
+    <!--// 折り畳み展開ポインタ -->
+
+    <!-- 折り畳まれ部分 -->
+    <div id="open" style="display:none;clear:both;">
+        <ul>
+            <li>iPhoneXS</li>
+            <li>iPhoneXR</li>
+            <li>iphone8</li>
+            <li>iPhone7</li>
+        </ul>
+    </div>
+    <!--// 折り畳まれ部分 -->
+    
+    <br>
+</div>
+
+<div class="box2">
+    <h2>商品一覧</h2>
+    <a style="cursor:pointer;">
+        <a href="12green.html"><img src="cover.png" class="photo1"></a>
+        <a href="12orange.html"><img src="orange.png" class="photo2"></a>
+    <img src="blackcover.png" class="photo2">    
+    <img src="yellow.png" class="photo2">
+        <a href="12blue.html"><img src="blue.png" class="photo2"></a>
+    <img src="red.png" class="photo2">
+    <img src="white.jpg" class="photo2">
+    <img src="cover.png" class="photo2">
+    </a>
+</div>
+
+<div class="box3">
+    <h2>カラー</h2>
+    <ul>
+        <a href="green.html"><li>Green</li></a>
+        <a href="blue.html"><li>Blue</li></a>
+        <li>Black</li>
+        <li>White</li>
+        <li>Yellow</li>
+    </ul>
+    
+    <!-- 折り畳み展開ポインタ -->
+    <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">
+    <a style="cursor:pointer;">▼ もっと見る</a>
+    </div>
+    <!--// 折り畳み展開ポインタ -->
+
+    <!-- 折り畳まれ部分 -->
+    <div id="open2" style="display:none;clear:both;">
+        <ul>
+            <li>Orange</li>
+            <li>Red</li>
+            <li>Sky</li>
+            <li>Perple</li>
+        </ul>
+    </div>
+    <!--// 折り畳まれ部分 -->
+    
+</div>
+
+ <section>
+ 
+ 
+ </section>
+ </article>
+
+ </body>
+</html>

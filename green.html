@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>12Pro</title>
+ <meta name="description" content="ディスクリプションを入力">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+ <style type="text/css">
+     div.top{
+         text-align: center;
+     }
+     
+     div.BOX1{
+         margin: 5%;
+     }
+     
+     .box1{
+        margin:30px;
+        position: relative;
+        padding: 0.5em 1.5em;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+    }
+    .box1:before, .box1:after{
+        content: '';
+        position: absolute;
+        top: -10px;
+        width: 2px;
+        height: -webkit-calc(100% + 20px);
+        height: calc(100% + 20px);
+        background-color: black;
+    }
+    .box1:before {left: 10px;}
+    .box1:after {right: 10px;}
+    .box1 p {
+        margin: 0; 
+        padding: 0;
+    }
+     
+     img.case{
+         width:200px;
+         height:200px;
+         float: left;
+     }
+     
+     p {
+         overflow: hidden;
+         font-size: 30px;
+     }
+     
+     span{
+         color: red;
+     }
+     
+     h2{
+         text-align: center;
+     }
+     
+     h3{
+         text-align: left;
+     }
+     
+ </style>
+     
+ </head>
+
+ <body>
+ <!----- header----->
+ <header>
+    <center><img src="font_rend.png"></center>
+     
+ </header>
+ <nav>
+     <hr color="black">
+     <br>
+     <div class="top">
+         <h3><a href="HomePage.html">back</a></h3>
+         <h1>検索結果：31　並び順：価格</h1>
+     </div>
+ </nav>
+ 
+ <!----- main ----->
+ <article>
+
+ <section>
+ 
+ <div class="box1" >
+     <p>
+         <a style="cursor:pointer;"><a href="12green.html"><img src="cover.png" class="case"></a></a>
+     <br>iPhone12Pro クリアケース<br><br>価格: <span>\800</span>
+     </p>
+ </div>
+
+ <div class="box1" >
+     <p>
+         <a style="cursor:pointer;"><img src="cover.png" class="case"></a>
+     <br>iPhoneXR 本革ケース<br><br>価格: <span>\1,200</span>
+     </p>
+ </div>
+ 
+ <div class="box1" >
+     <p>
+         <a style="cursor:pointer;"><a href="12green.html"><img src="cover.png" class="case"></a>
+     <br>iPhone11Pro 本革ケース<br><br>価格: <span>\1500</span>
+     </p>
+ </div>
+     
+ <h2>← 1 2 3 ...... 9 10 11 →</h2>
+     
+ 
+ </section>
+ </article>
+
+ </body>
+</html>
